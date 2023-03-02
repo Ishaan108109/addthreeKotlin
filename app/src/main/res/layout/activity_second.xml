@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
+    android:gravity = "center_horizontal"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Result"
+        android:background="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/prev_result"
+
+        />
+
+    <EditText
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Number_three"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@color/teal_700"
+        android:textStyle="italic|bold"
+        android:id="@+id/num_three"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textStyle="bold"
+        android:id ="@+id/add_third"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
